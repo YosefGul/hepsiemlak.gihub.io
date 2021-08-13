@@ -1,0 +1,15 @@
+@mixin flex($align, $justify, $direction) {
+    display: flex;
+    align-items: $align;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+@import "ortak";
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
